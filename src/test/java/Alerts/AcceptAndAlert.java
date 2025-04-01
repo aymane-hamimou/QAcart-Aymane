@@ -15,7 +15,7 @@ public class AcceptAndAlert {
 
         // Trouve le bouton avec la classe "alert" et clique dessus (ce qui déclenche l’alerte)
         driver.findElement(By.className("alert")).click();
-
+//
         // Passe au contexte de l'alerte JavaScript, puis l'accepte (équivalent à cliquer sur "OK")
         driver.switchTo().alert().accept();
         // String p= driver.switchTo().alert().getText();
